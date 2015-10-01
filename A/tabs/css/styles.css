@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+#tabsWrapper {
+    width: 1200px ;
+height: 500px ;
+    margin: 60px auto ;
+    position: relative ;
+    font-family: Montserrat , sans-serif ;
+    }      
+
+ul#tabs {
+    height: 80px ;
+    padding-left: 20px ;
+    font-size: 0 ;
+    padding-top: 20px ;
+    border-bottom: 8px solid #4B0082  ;
+    }
+
+#tabs li {
+    padding: 0 25px 0 45px ;
+    height: 80px ;
+    border-top-left-radius: 8px ;
+    line-height: 86px ;
+    background-color: #233a68 ;
+    color: #fff ;
+    margin-right: 20px ;
+    display: inline-block ;
+    vertical-align: top ;
+    font-size: 24px ;
+    cursor: pointer ;
+    letter-spacing: 2px ;
+    position: relative ;
+    background: #e8d87d ; /* Old browsers */
+background: -ms-linear-gradient(left,  #000 0%,#4B0082 40%,#4B0082 80%); /* IE10+ */
+background: linear-gradient(to right,  #000 0%,#4B0082 40%,#4B0082 80%);
+        
+    transition: height .4s ;
+    }
+    #tabs li::after {
+        content: "" ;
+        width: 40px ;
+        height:  80px ;
+        position:  absolute ;
+        top: 0 ;
+        right: -20px ;
+        background-color: #4B0082 ;
+        transform: skewX(20deg) ;
+        z-index: 1 ;
+        border-right: 3px solid #000  ;
+    transition: height .4s ;
+        }
+
+#tabs .tabActiva  {
+    height: 88px ;
+    background-image: none ;
+    background-color: #e8e500  ;
+    color: #000 ;
+    z-index: 1 ;
+    font-weight: bold ;
+    cursor: default ;
+    }
+   #tabs .tabActiva::after {
+        height:  88px ;
+       background-color: #e8e500  ;
+       border-color: #e8e500   ;
+        }
+
+
+
+#tabsWrapper section {
+    width: 100% ;
+    height: 430px ;
+    background-color: #e8e500 ;
+    position: absolute ;
+    top: 108px ;
+    left: 0 ;
+    display: none ;
+    text-align: center ;;
+    border-bottom: 8px solid #4B0082  ;
+    }
+
+h1 {
+    font-size: 180px ;
+    position: relative ;
+    top: 100px ;
+    font-family: "Kaushan Script", serif ;
+    transform: rotate(-15deg) translateX(-30px);
+    color: #4B0082  ;
+    letter-spacing: -6px ;
+    text-shadow: -5px -4px 1px rgba(255,255,255,1) ,
+                 16px 18px 17px rgba(0,50,60,.6)
+                 
+}

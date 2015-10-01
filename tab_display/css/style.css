@@ -1,0 +1,23 @@
+body {
+	font-family: arial, sans-serif;
+}
+
+.navigation li{
+	display: inline-block;
+	font-size: 20px;
+	background-color: dodgerblue;
+	padding: 20px;
+	color: white;
+	transition: all .3s linear;
+}
+.info_panel {
+	display: none;
+	padding: 50px;
+	font-size: 16px;
+	border: 2px solid dodgerblue;
+}
+
+.navigation .active_tab {
+	background-color: white;
+	color: dodgerblue;
+}
