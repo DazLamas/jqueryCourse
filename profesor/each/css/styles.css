@@ -1,0 +1,72 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+#sky {
+    height: 2000px ;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9ec6e5+0,1e5799+100 */
+background: #9ec6e5; /* Old browsers */
+background: -ms-radial-gradient(bottom, ellipse cover,  #9ec6e5 0%,#1e5799 100%); /* IE10+ */
+background: radial-gradient(ellipse at bottom,  #9ec6e5 0%,#1e5799 100%); /* W3C */
+position: relative ;
+}
+
+#ground {
+    width: 100% ;
+    height: 339px ;
+    position: absolute ;
+    bottom: 0 ;
+    background-image: url(ui-img/block.png) ;
+    border-top: 80px solid green ;
+}
+
+#plant {
+    width: 500px ;
+    height:  905px ;
+    background-image: url(ui-img/plant.png) ;
+    position: relative ;
+    top: -985px ;
+    left: 60% ;
+    }
+
+#question { 
+    width: 190px ;
+    height:  183px ;
+    background-image: url(ui-img/question.png) ;
+    position: absolute ;
+    top: 300px ;
+    left: 25% ;
+    }
+
+.nube {
+    width: 304px ;
+    height:  241px ;
+    background-image: url(ui-img/cloud.png) ;
+    position: absolute ;
+    top: 270px ;
+    left: 304px ;
+    animation: mvtoNube  4s infinite ;
+    }
+
+@keyframes mvtoNube {
+    
+    50% {
+        left: 35%  ;
+        transform: scaleX(1)
+        }
+    50.1%   {
+        transform: scaleX(-1)
+        }
+    
+    to   {
+        transform: scaleX(-1)
+        }
+}
+
+
+.pLargo {
+    background-color: yellow ;
+    font-weight: bold ;
+    }
+
+p {
+    margin: 3em ;
+}

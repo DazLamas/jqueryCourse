@@ -26,9 +26,13 @@ html, body {
 	margin-right: -40px;
 }*/
 .panel_btn {
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 50px 86.6px 50px 0;
-	border-color: transparent #007bff transparent transparent;
+	background-color: red;
 }
+.panel_btn:first-child {
+	background-color: blue;
+}
+
+.panel_btn:last-child {
+	background-color: yellow;
+}
+
