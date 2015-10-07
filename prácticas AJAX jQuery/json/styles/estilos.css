@@ -1,0 +1,27 @@
+
+body	{
+	font-family: Helvetica, sans-serif ;
+	line-height: 160% ;
+	}
+
+h1	{
+	font-size: 24px ;
+	line-height: 42px ;
+	margin: 20px 20px 40px ;
+	border-bottom: 2px dotted #333 ;
+	}
+
+form , input	{
+	padding: 10px;
+	margin: 20px 20px 0 20px ;
+	font-size:24px ;
+	}
+
+p#resultados {
+	border: 2px solid rgb(45,50,55) ;
+	background-color: #f7f8e8;
+	color: rgb(45,50,55) ;
+	padding: 40px;
+	margin: 20px 20px 0 0 ;
+	font-size:72px ;
+	}

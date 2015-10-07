@@ -1,0 +1,12 @@
+.box{
+	width: 150px;
+	height: 150px;
+	background-color: dodgerblue;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 2s;
+}
+.box.red {
+	background-color: red;
+}

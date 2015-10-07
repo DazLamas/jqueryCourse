@@ -1,0 +1,99 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	//font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body	{
+    font-family: Helvetica, sans-serif ;
+    line-height: 1.5
+    }
+
+nav	{
+	margin: 30px 30px 0 ;
+	background-color:#223 ;
+	//overflow: hidden ;
+	}
+	
+nav li	{
+	border-top: 1px solid #556 ;
+	}
+	nav li:first-child	{
+		border-top: none ;
+		}
+		
+	nav li:last-child	{
+		border-bottom: none ;
+		}
+
+nav a	{
+	padding : 5px 0 5px 20px ;
+	display: block ;
+	text-decoration: none ;
+	font-size: 14px ;
+    color: #fff ;
+	}
+	
+	nav a:hover	{
+		background-color:#00B2AD ;
+		}
+
+.infoCurso	{
+    font-size: 20px ;
+	padding: 35px 20px ;
+	margin: 0 30px 30px ;
+	background-color:#dae0e2 ;
+	color: #5d5d5d ;
+	display: none ;
+	}
+	
+	.infoCurso p	{
+		margin-bottom: 20px ;
+		}
+	
+		.infoCurso p:last-child	{
+			margin-bottom: 0 ;
+			}
